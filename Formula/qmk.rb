@@ -19,8 +19,8 @@ class Qmk < Formula
   depends_on "hidapi"
   depends_on "libusb"
   depends_on "mdloader"
-  depends_on "osx-cross/arm/arm-gcc-bin@8"
-  depends_on "osx-cross/avr/avr-gcc@8"
+  # depends_on "osx-cross/arm/arm-gcc-bin@8"
+  # depends_on "osx-cross/avr/avr-gcc@8"
   depends_on "python"
   depends_on "teensy_loader_cli"
 
